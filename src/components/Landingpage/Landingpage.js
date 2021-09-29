@@ -8,7 +8,7 @@ const Landingpage = () => {
   return (
     <div className={Styles.background}>
       <div className={Styles.container}>
-        <img src={logo} alt="ait logo" />
+        <img src={logo} alt="ait logo here" />
         <p className={Styles.title}>placement cell</p>
         <div className={Styles.btnContainer}>
           <Link to='/auth'><button className={Styles.btns}>Get Started</button></Link>
