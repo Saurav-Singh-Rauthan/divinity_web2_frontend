@@ -1,0 +1,50 @@
+.formContainer {
+  width: 50%;
+  position: absolute;
+  margin: auto auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  max-height: 600px;
+  background: #f7f4f4;
+  padding: 3rem 6rem;
+  border-radius: 1rem;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background: #38358c;
+}
+
+select {
+  margin: 2rem 0 1rem 0;
+  height: 3.5rem;
+}
+
+span {
+  color: #38358c;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.btn {
+  margin: 2rem;
+  background: #38358c;
+  color: white;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 1rem;
+  transition: all 0.5s;
+  font-size: 1rem;
+}
+
+.btn:hover,
+.btn:active {
+  color: #38358c;
+  background: white;
+  border: 1px solid #38358c;
+  text-decoration: none;
+}

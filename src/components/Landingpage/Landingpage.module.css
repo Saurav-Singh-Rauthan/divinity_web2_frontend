@@ -1,0 +1,55 @@
+.background{
+  background: #38358C;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container{
+  background: #f7f4f4;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  top: 20%;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.title{
+  text-transform: capitalize;
+  font-size: 2rem;
+  position: relative;
+  top: -3rem;
+}
+
+.btnContainer{
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 2.5rem;
+}
+
+.btns{
+  background: #38358C;
+  color: white;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 1rem;
+  transition: all 0.5s;
+  font-size: 1rem;
+}
+
+.btns:hover,
+.btns:active{
+  color: #38358C;
+  background: white;
+  border: 1px solid #38358C;
+  text-decoration: none;
+}

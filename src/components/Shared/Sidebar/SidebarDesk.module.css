@@ -1,0 +1,87 @@
+.sidebar {
+  padding: .5rem 0 2rem 0;
+  background: #38358c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}
+
+img {
+  color: white;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.options button,
+.hamburger {
+  margin: 1rem auto;
+  padding: 1rem;
+  height: 64px;
+  width: 64px;
+  border-radius: 100%;
+  background: none;
+  border: none;
+  transition: all 0.5s;
+}
+
+.options button:hover:nth-child(3) {
+  box-shadow: 0 0 5px 5px #e74568;
+}
+
+.hamburger {
+  margin: 0 auto;
+  padding: 0;
+}
+
+button:hover {
+  box-shadow: 0 0 5px 5px #5c7aea;
+}
+
+/* tooltip */
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  text-decoration: none;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip .tooltiptext {
+  top: -3px;
+  left: 160%;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
